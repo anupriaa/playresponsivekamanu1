@@ -36,6 +36,30 @@ img {
   background-position: center;
   height: 385px;
 }
+.pueo{
+  background-image: url("../images/cover-pueo-page.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+.kamanuv{
+  background-image: url("../images/cover-v6-page.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+.aukahi{
+  background-image: url("../images/cover-aukahi.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+.about{
+  background-image: url("../images/cover-about-eono.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
 .tagline{
   background-color: #000;
   height: 131px;

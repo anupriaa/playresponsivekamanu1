@@ -26,6 +26,15 @@ public class IntegrationTest {
         browser.goTo("http://localhost:3333");
         assertThat(browser.pageSource()).contains("We Build Canoes");
 
+        browser.goTo("http://localhost:3333/Pueo");
+        assertThat(browser.pageSource()).contains("The Pueo is the most versatile all-around canoe that we know how to make");
+
+        browser.goTo("http://localhost:3333/Aukahi");
+        assertThat(browser.pageSource()).contains("The Aukahi: Tahitian V1 design with Hawaiian attitude");
+        browser.goTo("http://localhost:3333/KamanuV6");
+        assertThat(browser.pageSource()).contains("The most exciting thing in paddling since the T-Top");
+        browser.goTo("http://localhost:3333/About");
+        assertThat(browser.pageSource()).contains("Become the most amazing company");
       }
     });
   }

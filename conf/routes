@@ -4,6 +4,10 @@
 
 # Home page
 GET     /                           controllers.Application.index()
+GET     /Pueo                          controllers.Application.Pueo()
+GET     /Aukahi                          controllers.Application.Aukahi()
+GET     /KamanuV6                          controllers.Application.KamanuV6()
+GET     /About                          controllers.Application.About()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

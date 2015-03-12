@@ -35,8 +35,8 @@
           <value>
             <ProjectSettingsEntry>
               <option name="version" value="2.3.7" />
-              <option name="sourceDir" value="C:\Users\Anupriya\Desktop\spring\613\WODs\playresponsivekamanu1\conf" />
-              <option name="confDir" value="C:\Users\Anupriya\Desktop\spring\613\WODs\playresponsivekamanu1\app" />
+              <option name="sourceDir" value="C:\Users\Anupriya\Desktop\spring\613\WODs\playresponsivekamanu1\app" />
+              <option name="confDir" value="C:\Users\Anupriya\Desktop\spring\613\WODs\playresponsivekamanu1\conf" />
               <option name="routesImports">
                 <list>
                   <option value="controllers.Assets.Asset" />
